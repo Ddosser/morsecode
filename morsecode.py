@@ -52,7 +52,7 @@ class MorseCode(object):
 
 def usage():
     print '*'*60
-    print "Usage: python unescape.py -[e|d] [-f <file>] [-o <file>]"
+    print "Usage: python morsecode.py -[e|d] [-f <file>] [-o <file>]"
     print "-e       escape input string or file."
     print "-d       decode."
     print "-f       input from file."
